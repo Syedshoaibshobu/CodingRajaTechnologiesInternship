@@ -1,0 +1,22 @@
+// DatabaseHandler.java
+import java.sql.*;
+
+public class DatabaseHandler {
+    private Connection connection;
+
+    // Establish database connection in constructor
+
+    public void addAccount(Account account) {
+        // Add account to the database
+    }
+
+    public Account getAccount(int accountNumber) {
+        // Retrieve account from the database
+    }
+
+    public void updateAccount(Account account) {
+        // Update account in the database
+    }
+
+    // Other methods for transactions, balance retrieval, etc.
+}
