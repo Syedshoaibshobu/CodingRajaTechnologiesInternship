@@ -1,0 +1,8 @@
+CREATE DATABASE IF NOT EXISTS bank_system;
+USE bank_system;
+
+CREATE TABLE IF NOT EXISTS accounts (
+    account_number INT PRIMARY KEY,
+    account_holder VARCHAR(255),
+    balance DECIMAL(10, 2)
+);
