@@ -1,0 +1,8 @@
+// Account.java
+public class Account {
+    private int accountNumber;
+    private String accountHolder;
+    private double balance;
+
+    // Constructors, getters, setters, etc.
+}
