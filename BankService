@@ -1,0 +1,20 @@
+// BankService.java
+public class BankService {
+    private DatabaseHandler databaseHandler;
+
+    public BankService(DatabaseHandler databaseHandler) {
+        this.databaseHandler = databaseHandler;
+    }
+
+    public void deposit(int accountNumber, double amount) {
+        // Implement deposit logic
+    }
+
+    public void withdraw(int accountNumber, double amount) {
+        // Implement withdrawal logic
+    }
+
+    public double getBalance(int accountNumber) {
+        // Retrieve balance from the database
+    }
+}
